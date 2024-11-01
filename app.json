@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "SnipTask",
+    "slug": "Test4",
+    "privacy": "public",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devd12.sniptask"
+    },
+    "android": {
+      "package": "com.devd12.Test4",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive.png",
+        "backgroundColor": "#ffffff"
+      },
+      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eae18cee-4fa1-4d3f-bfb5-a339d14512c7"
+      }
+    }
+  }
+}
